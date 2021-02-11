@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>UpFour</title>
+  </head>
+  <body>
+    <header>
+      <label for="ip-home">
+        <img src="img/logo.png" alt="Logo" />
+      </label>
+
+      <div class="navegacao">
+        <nav>
+          <label class="flex" for="ip-quem-somos">Quem Somos</label>
+          <label class="flex" for="ip-nossos-servicos">Nossos Serviços</label>
+          <label class="flex" for="ip-nosso-time">Nosso Time</label>
+          <label class="flex" for="ip-contato">Contato</label>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <input type="radio" name="grupo" id="ip-home" checked="true" />
+      <input type="radio" name="grupo" id="ip-quem-somos" />
+      <input type="radio" name="grupo" id="ip-nossos-servicos" />
+      <input type="radio" name="grupo" id="ip-nosso-time" />
+      <input type="radio" name="grupo" id="ip-contato" />
+
+      <section class="sections">
+        <section class="block" id="home"></section>
+        <section class="block" id="quem-somos"></section>
+        <section class="block" id="nossos-servicos"></section>
+        <section class="block" id="nosso-time"></section>
+        <section class="block" id="contato"></section>
+      </section>
+    </main>
+  </body>
+</html>
