@@ -4,6 +4,7 @@
   --bege: #d2c2b0;
   --white: #f6f6f6ff;
   --middle-grey: #847b73ff;
+  --hover: rgba(255, 255, 255, 0.2);
 }
 
 * {
@@ -60,7 +61,7 @@ nav label {
 }
 
 nav label:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--hover);
 }
 
 /*Main*/
@@ -117,4 +118,42 @@ main {
 
 #ip-contato:checked ~ .sections {
   margin-top: -400vh;
+}
+
+/* Sessão Contato */
+
+section#contato > div.container {
+  margin-top: 100px;
+  height: 92%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 10px;
+}
+
+div.form {
+  grid-column: 2 / span 2;
+  grid-row: 1/2;
+  background-color: white;
+}
+
+footer {
+  background-color: var(--black);
+  grid-column: 1/-1;
+  grid-row: 3/4;
+  flex-direction: column;
+}
+
+footer > img {
+  max-width: 300px;
+  margin-bottom: 16px;
+}
+
+div.redes-sociais i {
+  font-size: 3em;
+  color: var(--white);
+  margin: 0 16px 32px 16px;
+}
+
+div.redes-sociais i:hover {
+  color: var(--hover);
 }
