@@ -90,7 +90,8 @@ main {
 }
 
 #quem-somos {
-  background-color: var(--white);
+  /* background-color: var(--white); */
+  background: rgba(132, 123, 115, 0.527);
 }
 #nossos-servicos {
   background-color: var(--bege);
@@ -117,4 +118,55 @@ main {
 
 #ip-contato:checked ~ .sections {
   margin-top: -400vh;
+}
+
+/* Quem somos */
+h1 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: 400;
+  text-align: justify;
+  align-self: center;
+  align-content: center;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 23px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.quem-somos {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bloco-quem-somos {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-quem-somos {
+  padding-top: 50px;
+  display: flex;
+  margin-right: 50px;
+  text-align: center;
+  
+}
+
+h1, h2, h3 {
+  margin-right: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
