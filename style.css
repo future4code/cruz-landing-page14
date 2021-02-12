@@ -433,3 +433,48 @@ div.redes-sociais i:hover {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /* Ajustando o header */
+  nav label {
+    font-size: 1.1em;
+  }
+
+  /*home*/
+
+  .container-home img {
+    height: 90.3%;
+  }
+
+  #container-titulo {
+    margin-top: 15%;
+  }
+
+  /* Quem somos */
+  div.bloco-quem-somos > h1 {
+    font-size: 25px;
+  }
+
+  div.bloco-quem-somos > h2 {
+    font-size: 22px;
+  }
+
+  div.bloco-quem-somos > h3 {
+    font-size: 20px;
+  }
+
+  .quem-somos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-quem-somos {
+    margin-right: 0px;
+  }
+
+  /* Sessão Contato */
+
+  section#contato > div.container {
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+  }
+}
