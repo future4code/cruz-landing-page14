@@ -221,6 +221,10 @@ div.bloco-quem-somos > h3 {
   text-align: center;
 }
 
+.img-quem-somos > img {
+  max-width: 500px;
+}
+
 div.bloco-quem-somos > h1,
 div.bloco-quem-somos > h2,
 div.bloco-quem-somos > h3 {
@@ -333,7 +337,7 @@ div.redes-sociais i:hover {
   color: var(--bege);
 }
 
-@media screen and (min-width: 375px) and (max-width: 475px) {
+@media screen and (min-width: 360px) and (max-width: 475px) {
   /* Escondendo o menu, definindo a sobreposição do header
    e liberando o scroll */
   header {
@@ -395,6 +399,7 @@ div.redes-sociais i:hover {
 
   div.bloco-quem-somos > h3 {
     font-size: 18px;
+    padding-top: 40px;
   }
 
   .quem-somos {
