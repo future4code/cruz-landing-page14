@@ -231,6 +231,23 @@ h1, h2, h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Nossos Serviços */
+.nossos-servicos {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.img-credito {
+  display: flex;
+  padding-top: 70px;
+  margin-right: 50px;
+  text-align: center;
+  height: 100%;
+
+}
+
 /*Sessão Nosso Time*/
 
 #container-nosso-time{
@@ -257,7 +274,6 @@ h1, h2, h3 {
 
 #container-nosso-time p{
   margin-left:15px ;
-}
 
 /* Sessão Contato */
 
