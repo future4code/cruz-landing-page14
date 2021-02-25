@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>UpFour</title>
+  </head>
+  <body>
+    <header>
+      <label for="ip-home">
+        <img src="img/logo.png" alt="Logo" />
+      </label>
+
+      <div class="navegacao">
+        <nav>
+          <label class="flex" for="ip-quem-somos">Quem Somos</label>
+          <label class="flex" for="ip-nossos-servicos">Nossos Serviços</label>
+          <label class="flex" for="ip-nosso-time">Nosso Time</label>
+          <label class="flex" for="ip-contato">Contato</label>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <input type="radio" name="grupo" id="ip-home" checked="true" />
+      <input type="radio" name="grupo" id="ip-quem-somos" />
+      <input type="radio" name="grupo" id="ip-nossos-servicos" />
+      <input type="radio" name="grupo" id="ip-nosso-time" />
+      <input type="radio" name="grupo" id="ip-contato" />
+
+      <section class="sections">
+        <section class="block" id="home">
+          <div class="container-home">
+            <img src="./img/bannerhome.webp" alt="" />
+            <div id="container-titulo">
+              <div id="titulo-home">
+                <h2>Comece o seu negócio <br />próprio hoje</h2>
+              </div>
+              <div id="subtitulo-home">
+                <h1>Crédito com a menor taxa do mercado</h1>
+              </div>
+              <button id="botao-home">Quero começar!</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="block" id="quem-somos">
+          <div class="quem-somos">
+            <div class="bloco-quem-somos">
+              <h1>
+                Uma empresa com pessoas apaixonadas pelo que fazem e dedicadas a
+                contribuir para o sucesso dos seus clientes.
+              </h1>
+              <h2>
+                Acreditamos que o empreendedorismo é um agente de mudanças
+                positivas capaz de transformar a vida das pessoas e da
+                comunidade. Com comprometimento e transparência, fomentamos o
+                acesso ao crédito para moradores da periferia que desejam
+                começar o seu próprio negócio.
+              </h2>
+              <h3>
+                E você, tem uma ideia genial e quer tirá-la do papel? Conheça já
+                os nosssos serviços!
+              </h3>
+            </div>
+            <div class="img-quem-somos">
+              <img src="quem-somos.jpg" alt="Imagem" />
+            </div>
+          </div>
+        </section>
+
+        <section class="block" id="nossos-servicos">
+          <div class="nossos-servicos">
+            <div class="credito">
+              <h1>Crédito pessoal</h1>
+              <h2>
+                É destinado para pessoa física e com ele não é necessário
+                justificar o motivo da solicitação do crédito. O crédito pessoal
+                te proporciona a liberdade de usá-lo como quiser, como pagar as
+                dívidas.
+              </h2>
+              <h1>Sistema de controle e orientação financeira</h1>
+              <h2>
+                Sabemos que um bom planejamento financeiro é indispensável para
+                que possamos alcançar as nossas metas. Para isso, você pode
+                contar com o nosso time! Te oferecemos o suporte necessário para
+                que você assuma o controle de suas finanças.
+              </h2>
+            </div>
+            <div class="img-credito">
+              <img src="credito.jpg" alt="Imagem" />
+            </div>
+          </div>
+        </section>
+
+        <section class="block" id="nosso-time">
+          <div id="container-nosso-time">
+            <div>
+              <img src="./img/rostos/img1.jpg" alt="" />
+              <p>Marcos Suzart <br />Gerente de Vendas</p>
+            </div>
+            <div>
+              <img src="./img/rostos/img2.jpg" alt="" />
+              <p>Maria Lopes<br />Coordenadora de Contabilidade</p>
+            </div>
+            <div>
+              <img src="./img/rostos/img3.jpg" alt="" />
+              <p>Sérgio Cunha<br />Coordenador de Tesouraria</p>
+            </div>
+            <div>
+              <img src="./img/rostos/img4.jpg" alt="" />
+              <p>William Santos<br />Auditor Interno</p>
+            </div>
+            <div>
+              <img src="./img/rostos/img5.jpg" alt="" />
+              <p>Betina Ribeiro<br />Analista de Tesouraria</p>
+            </div>
+            <div>
+              <img src="./img/rostos/img6.jpg" alt="" />
+              <p>Luíza Loureiro <br />Diretora Financeiro</p>
+            </div>
+            <div>
+              <img src="./img/rostos/img7.jpg" alt="" />
+              <p>Carlos Zullin<br />Analista de Contabilidade</p>
+            </div>
+            <div>
+              <img src="./img/rostos/img8.jpg" alt="" />
+              <p>Bernardo Diniz <br />Diretor Financeiro</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="block" id="contato">
+          <div class="container">
+            <div class="form">
+              <div class="img-box">
+                <img src="./img/customer-support-staff-smiles.jpg" alt="" />
+              </div>
+              <form action="#">
+                <h2>Mande sua mensagem</h2>
+                <div>
+                  <input
+                    type="text"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Digite seu email"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    name="telefone"
+                    placeholder="Digite seu Telefone"
+                  />
+                </div>
+
+                <div>
+                  <textarea
+                    name="mensagem"
+                    placeholder="Digite sua mensagem"
+                  ></textarea>
+                </div>
+
+                <div class="submit">
+                  <button type="submit">Enviar</button>
+                </div>
+              </form>
+            </div>
+
+            <footer class="flex">
+              <img src="./img/logo.png" alt="Logo" />
+
+              <div class="redes-sociais">
+                <a target="_blank" href="https://facebook.com">
+                  <i class="fab fa-facebook-square"> </i>
+                </a>
+
+                <a target="_blank" href="https://instagram.com/">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+
+                <a target="_blank" href="https://twitter.com/">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </footer>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
